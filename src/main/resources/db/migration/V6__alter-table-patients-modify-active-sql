@@ -1,0 +1,1 @@
+alter table patients modify active tinyint not null;
