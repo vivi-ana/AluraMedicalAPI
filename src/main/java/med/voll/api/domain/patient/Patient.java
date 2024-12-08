@@ -16,7 +16,7 @@ import med.voll.api.domain.address.Address;
 @EqualsAndHashCode(of = "id")
 @NoArgsConstructor
 @AllArgsConstructor
-@Entity(name = "patient")
+@Entity(name = "Patient")
 @Table(name = "patients")
 public class Patient {
     @Id

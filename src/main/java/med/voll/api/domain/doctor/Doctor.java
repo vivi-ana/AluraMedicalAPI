@@ -12,7 +12,7 @@ import med.voll.api.domain.address.Address;
  * This entity is mapped to the "doctors" table in the database.
  */
 @Table(name = "doctors")
-@Entity(name = "doctor")
+@Entity(name = "Doctor")
 @Getter
 @NoArgsConstructor
 @AllArgsConstructor
