@@ -1,5 +1,6 @@
 package med.voll.api.controller;
 
+import io.swagger.v3.oas.annotations.security.SecurityRequirement;
 import jakarta.transaction.Transactional;
 import jakarta.validation.Valid;
 import med.voll.api.domain.doctor.*;
@@ -17,6 +18,7 @@ import java.net.URI;
  * REST controller for managing doctors.
  * Provides endpoints for registering, updating, deleting, and retrieving doctors.
  */
+@SecurityRequirement(name = "bearer-key")
 @RestController
 @RequestMapping("/doctor")
 public class DoctorController {
